@@ -1,0 +1,85 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "9b57fa96-f778-4641-8d86-a53192132138",
+  "Name": "PdfStamp",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Starkov.PdfStamp.Client",
+  "ClientBaseAssemblyName": "Starkov.PdfStamp.ClientBase",
+  "ClientBaseNamespace": "Starkov.PdfStamp.ClientBase",
+  "ClientNamespace": "Starkov.PdfStamp.Client",
+  "Code": "PdfStam",
+  "CompanyCode": "Starkov",
+  "Cover": {
+    "NameGuid": "baf38808-4b19-4eb9-8e68-f5afdf91cabf",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "27da4fe4-3c7f-44a3-bc5d-aa05261603ed",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "296a93d1-bfb1-4caf-b35a-d7d5a0517d8c",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "4.12.43.0"
+    }
+  ],
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "48d20e65-408b-4350-aa98-6174e5f5770f"
+    },
+    {
+      "ItemId": "5686a1a6-49e7-4aef-a157-916c28724cbd",
+      "PreviousItemId": "48d20e65-408b-4350-aa98-6174e5f5770f"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Starkov.PdfStamp",
+  "IsolatedAssemblyName": "Starkov.PdfStamp.Isolated",
+  "IsolatedNamespace": "Starkov.PdfStamp.Isolated",
+  "IsVisible": false,
+  "Libraries": [
+    {
+      "NameGuid": "ce0e2e97-d104-4f69-95fb-77566f673ea0",
+      "Name": "Newtonsoft",
+      "Scope": "Both"
+    }
+  ],
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Starkov.PdfStamp",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Starkov.PdfStamp.Server",
+  "ServerNamespace": "Starkov.PdfStamp.Server",
+  "SharedAssemblyName": "Starkov.PdfStamp.Shared",
+  "SharedNamespace": "Starkov.PdfStamp.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

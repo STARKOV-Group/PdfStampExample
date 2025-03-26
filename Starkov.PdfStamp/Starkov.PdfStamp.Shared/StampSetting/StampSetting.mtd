@@ -1,0 +1,79 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "5686a1a6-49e7-4aef-a157-916c28724cbd",
+  "Name": "StampSetting",
+  "BaseGuid": "06e3a0a6-5e8c-463e-bbfd-578227389d3f",
+  "CanBeNavigationPropertyType": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "IconResourcesKeys": [],
+  "LayeredFromGuid": "06e3a0a6-5e8c-463e-bbfd-578227389d3f",
+  "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "7991c161-013b-4d6a-bcfd-9ee4213c64ef",
+      "Name": "BusinessUnits",
+      "EntityGuid": "ac0c4f18-131c-4cc7-9192-26b6dc87c90e",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ]
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e03697df-dc86-4502-8ea7-410cc3160203",
+      "Name": "HtmlStampsStarkov",
+      "Code": "StampSettingHt",
+      "EntityGuid": "c5427b19-895f-4570-999a-7656938664ae",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "98d255ca-90fb-49cf-afbd-2f92549d9273"
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "135e8f0e-8ef2-4967-996f-46f18f616031",
+      "Name": "UseExtendedStampStarkov",
+      "Code": "UseExtendedSta",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+      "PreviousPropertyGuid": "e03697df-dc86-4502-8ea7-410cc3160203"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "bf8cb3bc-0daf-41fc-827f-61dd4f6c55e8",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "4c0a0bb8-0e12-48c3-a8e4-de40ef58459e",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 13
+    }
+  ]
+}

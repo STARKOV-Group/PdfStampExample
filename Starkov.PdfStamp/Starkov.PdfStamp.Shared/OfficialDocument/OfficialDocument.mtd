@@ -1,0 +1,121 @@
+{
+  "$type": "Sungero.Metadata.DocumentMetadata, Sungero.Content.Shared",
+  "NameGuid": "48d20e65-408b-4350-aa98-6174e5f5770f",
+  "Name": "OfficialDocument",
+  "AccessRightsMode": "Both",
+  "BaseGuid": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+  "CanBeNavigationPropertyType": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "7322020b-3299-4fba-b9b0-4c995bd2e401",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "80d3ce1a-9a72-443a-8b6c-6c6eef0c8d0f",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "IconResourcesKeys": [],
+  "IsAbstract": true,
+  "LayeredFromGuid": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+  "OpenCardByDefaultInCollection": true,
+  "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "Name": "Versions",
+      "EntityGuid": "88aa127f-64da-4ca6-8c75-ce62d454c36f",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "15280407-331e-42f6-b263-041a495b66cd",
+      "Name": "Tracking",
+      "EntityGuid": "6d2ae456-a9bf-46e7-adcf-201874cdd7b4",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "ConversionToPdfResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "IsFastConvertion",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "IsOnConvertion",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasErrors",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasConvertionError",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasLockError",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "ErrorTitle",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorMessage",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Starkov.PdfStamp.Structures.Docflow.OfficialDocument"
+    }
+  ],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "e244c292-0190-48ec-870d-d7dcf386a737",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "34ab8c70-1146-4ccf-b5cf-21f086db6b4c",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "DocumentMetadata",
+      "Number": 2
+    },
+    {
+      "Type": "EntityMetadata",
+      "Number": 13
+    }
+  ]
+}

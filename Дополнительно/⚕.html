@@ -1,0 +1,32 @@
+{{#IsRegistered}}
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+      .box1 {
+        border: 1px dotted rgba(255, 255, 255, 0.1);
+      }
+      .tg1 {
+        font-size: 12pt;
+        font-family: Arial, "Segoe UI", Consolas, Calibri, monospace;
+        line-height: 1;
+        color: #000000;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: yellow">
+    <table class="box1">
+      <tr>
+        <td>
+          <div class="tg1">Получение напрямую: {{doc.RegistrationNumber}} от {{doc.RegistrationDate}} </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="tg1">Получение из обработанной переменной: {{RegistrationNumber}} от {{RegistrationDate}} </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+{{/IsRegistered}}

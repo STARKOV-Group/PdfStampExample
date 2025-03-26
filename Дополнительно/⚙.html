@@ -1,0 +1,12 @@
+<html>
+<body>
+<div style="width:300px; background-color: yellow">
+Адресаты:
+<ul>
+{{# doc.Addressees }}
+  <li>{{Correspondent}} {{# Addressee}}({{.}}){{/ Addressee}}</li>
+{{/ doc.Addressees }}
+</ul>
+</div>
+</body>
+</html>

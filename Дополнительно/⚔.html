@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+      .box1 {
+        padding: 1.5px;
+        border: 1px solid #003f75;
+        width: 235px;
+      }
+      .tg1 {
+        font-size: 6pt;
+        font-family: Arial, "Segoe UI", Consolas, Calibri, monospace;
+        line-height: 6pt;
+        color: #003f75;
+        white-space: pre-wrap;
+      }
+      .tg2 {
+        font-size: 8.25pt;
+        font-family: Arial, "Segoe UI", Consolas, Calibri, monospace;
+        text-align: center;
+        line-height: 9.75pt;
+        color: #003f75;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <div style="width: 500px; background-color: yellow">
+      {{#ApproveSignatures}}
+      <div style="float: left; margin : 2px">
+        <table class="box1">
+          <tr>
+            <td>
+              <span class="tg1">ЭЦП <b>{{& SignatoryFullName}}</b></span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="tg1">Дата подписания: <b>{{& SigningDateTimeUtc}}</b></span>
+            </td>  
+          </tr>
+        {{# Comment}}
+        <tr>
+          <td>
+            <span class="tg1"><b>Комментарий</b> {{.}}</span>
+          </td>  
+        </tr>
+        {{/Comment}}
+        </table>
+      </div>
+      {{/ApproveSignatures}}
+    </div>
+  </body>
+</html>

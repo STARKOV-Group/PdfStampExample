@@ -1,29 +1,38 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<style type="text/css">
-.box1 {padding: 1.5px; border: 1px solid #003f75; width: 235px; background-color: yellow; }
-.tg1{font-size:6pt;font-family:Arial, "Segoe UI", Consolas, Calibri, monospace;line-height:6pt;color: #003f75;white-space: pre-wrap}
-</style>
-</head>
+ <head>
+  <style type="text/css">
+   .box1 {padding: 1.5px; border: 1px solid #003f75; width: 300px; background-color: white; }
+   .tg1{font-size:6pt;font-family:Arial, "Segoe UI", Consolas, Calibri, monospace;line-height:6pt;color: #003f75;}
+  </style>
+ </head>
 <body style="margin: 0">
-<table class="box1">
-<tr>
-  <td>
-    {{{Logo}}}<span class="tg1">ЭЦП <b>{{& SignatoryFullName}}</b></span>
-  </td>  
-</tr>
-<tr>
-  <td>
-    <span class="tg1">Дата подписания: <b>{{& SigningDateTimeUtc}}</b></span>
-  </td>  
-</tr>
-{{# Comment}}
-<tr>
-  <td>
-    <span class="tg1">Комментарий <b>{{.}}</b></span>
-  </td>  
-</tr>
-{{/Comment}}
-</table>
+ <table class="box1">
+  <tbody>
+   <tr>
+    <td rowspan="3">{{{Logo}}}</td>
+    <td style="text-align: center;"><strong>ДОКУМЕНТ ПОДПИСАН ЭП</strong></td>
+   </tr>
+   <tr>
+    <td>
+     <span class="tg1">
+      <strong>{{doc.Department.BusinessUnit}}<br /></strong>
+      <strong>{{doc.Department}}</strong><br />
+      Подписант: <strong>{{doc.OurSignatory}}</strong><br />
+      Подписал: <strong>{{SignatoryFullName}}<br /></strong>
+      Сертификат: {{Thumbprint}}</span>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <span class="tg1">Дата подписания: <strong>{{{SigningDateTimeUtc}}}</strong></span>
+    </td>
+   </tr>
+   <!-- {{# Comment}} -->
+   <tr>
+    <td colspan="2"><span class="tg1">Комментарий: <strong>{{.}}</strong></span></td>
+   </tr>
+  <!-- {{/Comment}} -->
+  </tbody>
+ </table>
 </body>
 </html>
